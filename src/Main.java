@@ -34,7 +34,7 @@ public class Main {
     	long start = System.nanoTime();
     	int temp = 0;
 
-        // Outer loop for passes
+        // Outer loop for # passes
         for (int i = 0; i < array.length - 1; i++) {
             // Inner loop for comparisons
             for (int j = 0; j < array.length - 1 - i; j++) {
@@ -57,7 +57,7 @@ public class Main {
         int lowestValueIndex = 0;
         int temp = 0;
 
-        // Outer loop for passes
+        // Outer loop for # passes
         for (int i = 0; i < array.length - 1; i++) {
             lowestValueIndex = i;
 
